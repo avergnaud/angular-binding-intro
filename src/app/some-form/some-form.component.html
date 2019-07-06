@@ -1,0 +1,21 @@
+<p>(input)="onInputChange($event)" :</p>
+<input
+    type="text"
+    size="50"
+    (input)="onInputChange($event)">
+    
+<p>(input)="onInputChange($event)" [value]="someText" :</p>
+<input
+    id = "my-input"
+    type="text"
+    size="50"
+    (input)="onInputChange($event)"
+    [value]="someText">
+
+<p>[(ngModel)]="someText" :</p>
+<input
+    type="text"
+    size="50"
+    [(ngModel)]="someText">
+<hr>
+<div>{{ someText }}</div>

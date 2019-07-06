@@ -1,0 +1,19 @@
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Example</title>
+  </head>
+  <body>
+      <input
+        id="my-input" 
+        type="text"
+        value="some initial value"
+        oninput="onInputHandler(event)">
+
+    <script>
+        function onInputHandler(event) {
+            console.log(event.target.value)
+        }
+    </script>
+  </body>
+</html>
