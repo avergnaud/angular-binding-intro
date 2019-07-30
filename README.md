@@ -1,5 +1,11 @@
 # property and event binding
 
+https://avergnaud.github.io/angular-binding-intro/
+
+`ng build --prod --base-href "https://avergnaud.github.io/angular-binding-intro/"`
+
+`sudo ngh --dir dist/angular-binding-intro`
+
 ## pure HTML input
 
 ![pure html input](README/pure_html_input.png)
